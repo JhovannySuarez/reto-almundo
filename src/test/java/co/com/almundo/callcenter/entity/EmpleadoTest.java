@@ -18,7 +18,7 @@ public class EmpleadoTest {
 	}
 
 	@Test
-	public void pruebaEmpleadoDisponible() {
+	public void pruebaEmpleadoDisponibleSegunPrioridad() {
 		EmpleadoController empleadoController = new EmpleadoController();
 		List<Empleado> listaEmpleados = empleadoController.getListaEmpleados();
 
